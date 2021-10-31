@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/socket.io/socket.io.js"></script>
+
+</head>
+<body>
+<script>
+  var socket = io();
+
+  socket.on('emergency', function(lat, long) {
+      console.log(lat, long)
+  });
+
+  function click1(){
+    socket.emit('coordinates', 11.324828, 77.680997)
+  }
+
+  
+  function click2(){
+    socket.emit('coordinates', 11.329764, 77.705927)
+  }
+
+  
+  function click3(){
+    socket.emit('coordinates', 10.99828248091417, 77.54997789134276)
+  }
+</script>
+
+
+<button onclick="click1()">Mi casa</button>
+<button onclick="click2()">Erode house</button>
+<button onclick="click3()">Kangiyam</button>
+
+</body>
+</html>
