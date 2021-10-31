@@ -28,5 +28,5 @@ ADDITIONAL CONTENT
 # Trained ML model for pain detection:
 
 * The following model has been trained to detect facial expressions to detect distress in a person.
-* URL: [a link](https://amritavishwavidyapeetham-my.sharepoint.com/:u:/g/personal/cb_en_u4cse19302_cb_students_amrita_edu/EQ6fdiQduZ9AncJTRkrFK_kBbyeUNvZg_hXBfJZ8o-LFcQ?e=ZFnEVD)
+* [Pain Detection Model](https://amritavishwavidyapeetham-my.sharepoint.com/:u:/g/personal/cb_en_u4cse19302_cb_students_amrita_edu/EQ6fdiQduZ9AncJTRkrFK_kBbyeUNvZg_hXBfJZ8o-LFcQ?e=ZFnEVD)
 
